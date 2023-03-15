@@ -4,44 +4,45 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "Product",
-    "description": ""
+    "displayName": "Product"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Photos": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "titleUA": {
-      "type": "text"
+      "type": "string"
     },
     "titleEN": {
       "type": "string"
     },
-    "price": {
+    "DescriptionUA": {
       "type": "string"
     },
-    "unrealPrice": {
-      "type": "string"
-    },
-    "CheckUA": {
+    "DescriptionEN": {
       "type": "string"
     },
     "CheckEN": {
       "type": "string"
     },
-    "type": {
+    "CheckUA": {
+      "type": "string"
+    },
+    "Photos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "price": {
+      "type": "string"
+    },
+    "unrealPrice": {
       "type": "string"
     }
   }
